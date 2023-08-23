@@ -10,4 +10,4 @@ gem 'simplecov', require: false, group: :test
 gem 'rspec_junit_formatter', :group => :test
 gem 'aruba', '~> 0.14.2', :group => :test
 gem 'httparty'
-gem 'slack-ruby-client'
+gem 'slack-ruby-client', '>= 0.12.0'
