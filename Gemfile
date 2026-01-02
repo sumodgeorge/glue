@@ -9,5 +9,5 @@ gem 'webmock', :group => :test
 gem 'simplecov', require: false, group: :test
 gem 'rspec_junit_formatter', :group => :test
 gem 'aruba', '~> 0.14.2', :group => :test
-gem 'httparty'
+gem 'httparty', '>= 0.24.0'
 gem 'slack-ruby-client'
